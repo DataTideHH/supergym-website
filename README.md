@@ -126,6 +126,36 @@ python -m flask --app app run
 
 → App läuft auf: `http://127.0.0.1:5000`
 
+### Lokale Demo-Datenbank zurücksetzen
+
+Die App legt lokal eine SQLite-Datenbank `supergym.db` an. Diese Datei wird nicht versioniert und kann bei Bedarf gelöscht werden, um die Demo-Daten beim nächsten App-Start neu zu erzeugen.
+
+```bash
+rm -f supergym.db
+python -m flask --app app run
+```
+
+Windows PowerShell:
+
+```powershell
+Remove-Item supergym.db -ErrorAction SilentlyContinue
+python -m flask --app app run
+```
+
+### Kurzes Troubleshooting
+
+Falls Flask nicht gefunden wird, prüfe zuerst, ob die virtuelle Umgebung aktiviert ist und die Abhängigkeiten installiert wurden:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Falls der Port bereits belegt ist, kann die App alternativ auf einem anderen Port gestartet werden:
+
+```bash
+python -m flask --app app run --port 5001
+```
+
 ---
 
 ## 📄 Seiten & Routen
