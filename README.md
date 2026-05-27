@@ -97,20 +97,31 @@ supergym-website/
 ---
 
 ## Installation & Start
+
+### Voraussetzungen
+
+- Python 3.13
+- Git
+- pip
+
 ```bash
 # Repo klonen
 git clone git@github.com:shinanDev/supergym-website.git
 cd supergym-website
 
-# Virtuelle Umgebung
+# Virtuelle Umgebung erstellen
 python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+
+# Virtuelle Umgebung aktivieren
+source .venv/bin/activate
+# Windows PowerShell:
+# .venv\Scripts\Activate.ps1
 
 # Abhängigkeiten installieren
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # App starten (DB wird automatisch initialisiert & befüllt)
-flask run
+python -m flask --app app run
 ```
 
 → App läuft auf: `http://127.0.0.1:5000`
