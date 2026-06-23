@@ -2,6 +2,8 @@
 
 > "Train Hard. Stay Sharp."
 
+> **Portfolio note:** This repository is a fork/copy of a BBQ Hamburg team learning project created during my retraining program. It is kept for training documentation and project reference only and is not part of my main Data/BI portfolio.
+
 Webapplikation für ein fiktives Fitnessstudio in Hamburg.  
 Entwickelt als Scrum-Teamprojekt im Rahmen der Umschulung zum  
 Fachinformatiker für Anwendungsentwicklung @ BBQ Hamburg 2026.
