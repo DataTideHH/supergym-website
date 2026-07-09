@@ -2,11 +2,19 @@
 
 > "Train Hard. Stay Sharp."
 
-> **Portfolio note:** This repository is a fork/copy of a BBQ Hamburg team learning project created during my retraining program. It is kept for training documentation and project reference only and is not part of my main Data/BI portfolio.
+> **Course project reference:** This repository is a fork/copy of a BBQ Hamburg team learning project created during my retraining program. It is kept as a course-project reference for training documentation, teamwork and Flask practice only. It is **not** part of my main Data/BI portfolio and should not be read as an actively maintained product or client project.
 
 Webapplikation für ein fiktives Fitnessstudio in Hamburg.  
 Entwickelt als Scrum-Teamprojekt im Rahmen der Umschulung zum  
 Fachinformatiker für Anwendungsentwicklung @ BBQ Hamburg 2026.
+
+---
+
+## Portfolio Context
+
+This repository is retained for transparency around course work and team-based web-development practice.
+
+The main DataTideHH portfolio focus remains Data/BI, process analysis, SQL, Python, Power BI and Microsoft-oriented data workflows. SuperGym is therefore treated as a secondary course-project reference, not as a primary portfolio project.
 
 ---
 
@@ -101,7 +109,7 @@ supergym-website/
 ## Installation & Start
 ```bash
 # Repo klonen
-git clone git@github.com:shinanDev/supergym-website.git
+git clone git@github.com:DataTideHH/supergym-website.git
 cd supergym-website
 
 # Virtuelle Umgebung
@@ -178,28 +186,3 @@ Entwickelt in **3 Sprints** nach Scrum-Methodik:
 - About-Seite: Gym-Geschichte, Öffnungszeiten, Trainer, Standort
 
 **Sprint 2** – Legal & Fertigstellung Homepage
-- Impressum, Datenschutz, AGB
-- Grafisches Logo, Hantel-Icon, Kontaktformular
-
-**Sprint 3** – Kursportal
-- Kursübersicht mit DB-Anbindung
-- Kursdetails, Anmeldeformular, Mitglieder-Modal
-- Wochentag-Filter, Auslastungsanzeige
-
-**Tools:** Jira · GitHub · Microsoft Teams · Claude Code
-
----
-
-## 📌 Status
-
-- [x] Projektstruktur & CI
-- [x] Navigation & Layout
-- [x] Homepage (Hero, Karussell, Body)
-- [x] About-Seite
-- [x] Legal-Seiten (Impressum, Datenschutz, AGB)
-- [x] Datenbankanbindung (SQLite)
-- [x] Kursportal mit Filter
-- [x] Kursdetails
-- [x] Anmeldeformular mit DB-Anbindung
-- [x] Mitglieder-Anmeldung (Modal)
-- [x] Responsives Design
